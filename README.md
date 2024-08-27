@@ -19,4 +19,5 @@
     ./sampleApp
 #### added custom pachages
      go mod init  github.com/newmohib/go-sample-app
-#### 
+#### added channels
+    
