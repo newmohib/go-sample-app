@@ -7,7 +7,7 @@
     3: Statically typed, so no surprises at run time
     4: Object oriented (sort of)
     5: Concurrentcy
-    6:Cross platform
+    6: Cross platform
     7: Excellent package management & testing built in
 
 #### Run Go app
