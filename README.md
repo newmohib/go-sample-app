@@ -10,14 +10,33 @@
     6:Cross platform
     7: Excellent package management & testing built in
 
-
 #### Run Go app
+
     go run filename
+
 #### Build app
+
     go build -o sampleApp main.go  // -o: output, sampleApp: build app name, main.go: file or appname.
+
 #### Run build app like
+
     ./sampleApp
+
 #### added custom pachages
+
      go mod init  github.com/newmohib/go-sample-app
+
 #### added channels
-    
+
+#### Test run go
+
+    go test -v
+
+#### Test Coverage
+
+    go test -cover
+
+#### see test coverage file or code
+
+    go test -coverprofile=coverage.out && go tool cover -html=coverage.out
+

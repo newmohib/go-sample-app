@@ -18,3 +18,11 @@ func RandomNumber(n int) int {
 	value := rand.Intn(n)
 	return value
 }
+
+type Person struct {
+	FirstName string `json:"first_name"`
+	LastName string `json:"last_name"`
+	HairColor string `json:"hair_color"`
+	HasDog bool `json:"has_dog"`
+}
+
