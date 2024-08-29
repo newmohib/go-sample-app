@@ -59,7 +59,7 @@ func main() {
 	u1 := User{
 		FirstName: "John",
 		LastName:  "Doe",
-	}
+	} 
 
 	u2 := User{
 		FirstName: "Jane2",
