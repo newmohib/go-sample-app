@@ -43,6 +43,7 @@ func main() {
 // interface implementation receiver function
 
 func (d Dog) Says() string {
+	log.Println("The dog says 2", d)
 	return "woof"
 }
 
